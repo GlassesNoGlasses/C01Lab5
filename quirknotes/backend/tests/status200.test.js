@@ -387,4 +387,5 @@ test("1+2=3, empty array is empty", () => {
     expect(allNotesData.response.length).toStrictEqual(1);
     expect(allNotesData.response[0].color).toStrictEqual('#FF0000');
   });
-  
+
+
