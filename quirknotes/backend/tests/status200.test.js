@@ -29,7 +29,7 @@ test("1+2=3, empty array is empty", () => {
     });
 
     return postNoteRes;
-  }
+  };
 
   const getAllNotes = async () => {
     const allNotesRes = await fetch(`${SERVER_URL}/getAllNotes`, {
@@ -40,7 +40,7 @@ test("1+2=3, empty array is empty", () => {
     });
 
     return allNotesRes;
-  }
+  };
 
   test("/postNote - Post a note", async () => {
     const title = "NoteTitleTest";
